@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import handleLogin from "../../utils/api/login";
+import { Navigate } from 'react-router-dom';
 import Pop_Up from "../../components/Pop Up";
 
 const Login = () => {
@@ -51,7 +52,7 @@ const Login = () => {
                 {
                     isAuthenticated ? <Navigate to="/home" />:
                     <Pop_Up trigger={isShow} setTrigger = {setIsShow}>
-                    Dispositivo Incorrecto
+                        Wrong Device
                     </Pop_Up>
                 }
             </form>
