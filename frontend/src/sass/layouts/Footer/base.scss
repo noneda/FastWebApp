@@ -1,13 +1,12 @@
-footer {
-  padding: 1% 5%;
-  text-align:center;
-  background-color: $First;
-  color: $Snow;
-  
-  a {
-    color: $Fourth;
-    font-weight: 500;
-    text-decoration: none;
-  }
-  
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: $Main-Third;
+    text-align: center;
+    p{
+      color: $Dark;
+    }
 }

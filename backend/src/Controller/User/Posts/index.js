@@ -3,9 +3,8 @@ const Users = require("../../../Models/Users")
 const CreateNewUser = async (req, res, next) => {
     console.log("Post -> Create new User")
     const {
-        get,
+        get
     } = req.body;
-    console.log("ID : " + id)
     try{
         const obj = await Users.create(get);
         

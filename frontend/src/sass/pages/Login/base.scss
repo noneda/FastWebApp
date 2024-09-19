@@ -1,3 +1,8 @@
+.content
+{
+    height:200px;
+ /*just to get the page to scroll*/
+}
 .CBody{
     margin-bottom: 12.2%;
     padding: 0;
@@ -10,7 +15,7 @@
     height: 400px;
     padding: 10px 25px;
     margin: 10vh auto;
-    background: $Snow;
+    background:$Main-Second ;
     border-radius: 8px;
   }
 
@@ -22,7 +27,7 @@
   }
 
   h1{ 
-    color: $Black;
+    color: $Dark;
     font-weight: bold;
     font-size: 40px;
     margin: 30px auto;
@@ -38,21 +43,21 @@
     margin-bottom: 30px;
   }
 
-  .user, .pass{ background: $White; }
+  .user, .pass{ background: #FFF7F1;}
+
 
   .login{
-    color: $Snow;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
-    background: $Third;
+    background:$Secondary-Second;
     transition: background 0.4s ease;
-    a{
-      color: white;
-      text-decoration: none;
-  }
+    color: white;
+
   }
 
-  .login:hover{ background: $Fourth; }
+  .login:hover{ background: $Secondary-Third; ; }
 
   @media only screen and (min-width : 280px) {
     .cont{ width: 90% }
